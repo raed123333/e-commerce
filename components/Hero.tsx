@@ -2,7 +2,7 @@
 
 import React from "react";
 import Slider from "react-slick";
-import Slide3 from "./Slide3";
+import Slide3 from "./Slide3.tsx";
 
 import img1 from "../public/img1.png";
 import img2 from "../public/img2.png";
