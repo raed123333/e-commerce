@@ -10,7 +10,7 @@ interface PropseType {
   price: string;
 }
 
-const Slide: React.FC<PropseType> = ({ image, title, mainTitle, price }) => {
+const Slide3: React.FC<PropseType> = ({ image, title, mainTitle, price }) => {
   return (
     <div className="relative outline-none border-none">
       <div className="absolute left-[20px] sm:left-[40px] max-w-[300px] sm:max-w-[400px] top-1/2
@@ -42,4 +42,4 @@ const Slide: React.FC<PropseType> = ({ image, title, mainTitle, price }) => {
   );
 };
 
-export default Slide;
+export default Slide3;
