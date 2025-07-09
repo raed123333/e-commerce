@@ -28,7 +28,7 @@ const Hero = () => {
     {
       id: 1,
       image: img1,
-      title: "New Arrival",
+      title: "New Arrival hhh",
       mainTitle: "Trendy Fashion 2025",
       price: "49",
     },
