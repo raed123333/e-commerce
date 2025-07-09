@@ -19,15 +19,7 @@ const NavBar = () => {
                                                 href="#"
                                                 className="relative text-black group hover:text-[#FF8F9C] transition-all duration-300"
                                         >
-                                                CATEGORIES                                                <span
-                                                        className="absolute left-0 -bottom-1 h-[2px] w-full bg-[#FF8F9C] scale-x-100 origin-left transition-transform duration-500 group-hover:scale-x-0"
-                                                ></span>
-                                        </Link>
-                                        <Link
-                                                href="#"
-                                                className="relative text-black group hover:text-[#FF8F9C] transition-all duration-300"
-                                        >
-                                                MEN'S
+                                                CATEGORIES
                                                 <span
                                                         className="absolute left-0 -bottom-1 h-[2px] w-full bg-[#FF8F9C] scale-x-100 origin-left transition-transform duration-500 group-hover:scale-x-0"
                                                 ></span>
@@ -36,7 +28,16 @@ const NavBar = () => {
                                                 href="#"
                                                 className="relative text-black group hover:text-[#FF8F9C] transition-all duration-300"
                                         >
-                                                Women's
+                                                MEN&#39;S
+                                                <span
+                                                        className="absolute left-0 -bottom-1 h-[2px] w-full bg-[#FF8F9C] scale-x-100 origin-left transition-transform duration-500 group-hover:scale-x-0"
+                                                ></span>
+                                        </Link>
+                                        <Link
+                                                href="#"
+                                                className="relative text-black group hover:text-[#FF8F9C] transition-all duration-300"
+                                        >
+                                                Women&#39;s
                                                 <span
                                                         className="absolute left-0 -bottom-1 h-[2px] w-full bg-[#FF8F9C] scale-x-100 origin-left transition-transform duration-500 group-hover:scale-x-0"
                                                 ></span>
@@ -77,11 +78,8 @@ const NavBar = () => {
                                                         className="absolute left-0 -bottom-1 h-[2px] w-full bg-[#FF8F9C] scale-x-100 origin-left transition-transform duration-500 group-hover:scale-x-0"
                                                 ></span>
                                         </Link>
-
                                 </div>
-
                         </div>
-
                 </div>
         )
 }
