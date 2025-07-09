@@ -2,7 +2,7 @@
 
 import React from "react";
 import Slider from "react-slick";
-import Slide3 from "./Slide3";
+import SlideHero from "./SlideHero";
 
 import img1 from "../public/img1.png";
 import img2 from "../public/img2.png";
@@ -52,7 +52,7 @@ const Hero = () => {
     <section className="w-full max-w-[1400px] mx-auto px-4 py-8">
       <Slider {...settings}>
         {slideData.map((item) => (
-          <Slide3
+          <SlideHero
             key={item.id}
             image={item.image}
             title={item.title}
